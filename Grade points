@@ -1,0 +1,25 @@
+Bangla=float(input("bangla mark-"))
+Math=float(input("math mark-"))
+English=float(input("english mark-"))
+result=(Bangla+Math+English)/3
+if result>=80 and result<=100:
+    print("grade is A+")
+    print("point is 4.00")
+elif result>=70 and result<=80:
+    print("grade is A")
+    print("point is 3.50")
+elif result>=60 and result<=70:
+    print("grade is A-")
+    print("point is 3.00")
+elif result>=50 and result<=60:
+    print("grade is B")
+    print("point is 2.50")
+elif result>=40 and result<=50:
+    print("grade is C")
+    print("point is 2.00")
+elif result>=30 and result<=40:
+    print("grade is D")
+    print("point is 1.00")
+else:
+    print("Faill")
+    print("Point is 0.00")
